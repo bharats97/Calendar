@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calendar</title>
+	<link rel="stylesheet" type="text/css" href="Style1.css">
+	<script src="new.js"></script>
+</head>
+<body>
+	<div class="Calendar">
+		<div class="header">
+			<span class="prev" onclick="prev()">&#10094;</span>
+			<span id="month"></span>
+			<span id="Year"></span>
+			<span class="next" onclick="next()">&#10095;</span>
+		</div>
+		<div class="Content">
+			<table id='cal'>
+				<script type="text/javascript">
+					setMonth();
+					setYear();
+					createTable();
+					getdates();
+				</script>
+			</table>
+		</div>
+	</div>
+</body>
+</html>
