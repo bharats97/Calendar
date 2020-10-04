@@ -1,31 +1,32 @@
 body
 {
 	font-family: Verdana, Geneva, sans-serif;
+	text-align: center;
 }
 .Calendar
 {
 	border:2px solid black;
 	display: inline-block;
-	float: left;
-	box-shadow: 10px 10px grey;
+	float: inherit;
+	box-shadow: 10px 10px rgb(74, 77, 78);
 }
 .header
 {
 	text-align: center;
-	color: white;
+	color:black;
 	padding: 25px 20px 25px 20px;
 	font-size: 20px;
-	background-color: #6200EE;
+	background-color: #22bd43;
 }
 th,td
 {
 	padding: 25px 20px 25px 20px;
-//	border:1px solid black;
-//	background-image: linear-gradient(#4CAF50,#689F38);
+/* //	border:1px solid black; */
+/* //	background-image: linear-gradient(#4CAF50,#689F38); */
 }
 .prev,#month,#Year,.next
 {
-	//border:1px solid black;
+	/* border:1px solid black; */
 	padding: 10px;
 	font-weight: bold;
 }
